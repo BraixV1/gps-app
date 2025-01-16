@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4849EE32D0F6AE6004AC54E /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4849EE22D0F6AE6004AC54E /* WidgetKit.framework */; };
+		D4849EE52D0F6AE6004AC54E /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4849EE42D0F6AE6004AC54E /* SwiftUI.framework */; };
+		D4849EF22D0F6AE9004AC54E /* DistanceWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D4849EE02D0F6AE6004AC54E /* DistanceWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4849EF02D0F6AE9004AC54E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4849E9D2D0F69EB004AC54E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4849EDF2D0F6AE6004AC54E;
+			remoteInfo = DistanceWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D4849EF72D0F6AE9004AC54E /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D4849EF22D0F6AE9004AC54E /* DistanceWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D4849EA52D0F69EB004AC54E /* map-project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "map-project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4849EE02D0F6AE6004AC54E /* DistanceWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DistanceWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4849EE22D0F6AE6004AC54E /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		D4849EE42D0F6AE6004AC54E /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		D4849EF32D0F6AE9004AC54E /* Exceptions for "DistanceWidget" folder in "DistanceWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = D4849EDF2D0F6AE6004AC54E /* DistanceWidgetExtension */;
+		};
+		D4849F0C2D0F6BF8004AC54E /* Exceptions for "map-project" folder in "DistanceWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Helpers/ColorHelper.swift,
+				Helpers/Config.swift,
+				Helpers/LocationViewModel.swift,
+				Helpers/PremiumFeatures.swift,
+				Helpers/PromoItem.swift,
+				Helpers/RoundedCornerHelper.swift,
+				Helpers/Tab.swift,
+				Helpers/Theme.swift,
+				Helpers/ThemeManager.swift,
+				Helpers/TimerState.swift,
+				Intents/AddCheckPointIntent.swift,
+				Intents/AddWaypointIntent.swift,
+				Intents/AppIntentProvider.swift,
+				Models/GpsLocationResponse.swift,
+				Models/GpsLocationTypes/GpsLocation.swift,
+				Models/GpsLocationTypes/LocationPoint.swift,
+				Models/GpsSessions/GpsSession.swift,
+				Models/GpsSessions/GpsSessionDelete.swift,
+				Models/GpsSessions/GpsSessionResponse.swift,
+				Models/GpsSessions/GpsSessionResponseGetAll.swift,
+				Models/GPXDocument.swift,
+				Models/ResultObject.swift,
+				Models/Waypoint.swift,
+				Services/BaseEntityService.swift,
+				Services/BaseService.swift,
+				Services/GpsLocationService.swift,
+				Services/GpsSessionService.swift,
+			);
+			target = D4849EDF2D0F6AE6004AC54E /* DistanceWidgetExtension */;
+		};
+		D4849F102D0F6C24004AC54E /* Exceptions for "DistanceWidget" folder in "map-project" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				DistanceWidgetLiveActivity.swift,
+			);
+			target = D4849EA42D0F69EB004AC54E /* map-project */;
+		};
+		D4849F122D0F6C52004AC54E /* Exceptions for "map-project" folder in "map-project" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = D4849EA42D0F69EB004AC54E /* map-project */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D4849EA72D0F69EB004AC54E /* map-project */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D4849F122D0F6C52004AC54E /* Exceptions for "map-project" folder in "map-project" target */,
+				D4849F0C2D0F6BF8004AC54E /* Exceptions for "map-project" folder in "DistanceWidgetExtension" target */,
+			);
+			path = "map-project";
+			sourceTree = "<group>";
+		};
+		D4849EE62D0F6AE6004AC54E /* DistanceWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D4849F102D0F6C24004AC54E /* Exceptions for "DistanceWidget" folder in "map-project" target */,
+				D4849EF32D0F6AE9004AC54E /* Exceptions for "DistanceWidget" folder in "DistanceWidgetExtension" target */,
+			);
+			path = DistanceWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4849EA22D0F69EB004AC54E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4849EDD2D0F6AE6004AC54E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4849EE52D0F6AE6004AC54E /* SwiftUI.framework in Frameworks */,
+				D4849EE32D0F6AE6004AC54E /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4849E9C2D0F69EB004AC54E = {
+			isa = PBXGroup;
+			children = (
+				D4849EA72D0F69EB004AC54E /* map-project */,
+				D4849EE62D0F6AE6004AC54E /* DistanceWidget */,
+				D4849EE12D0F6AE6004AC54E /* Frameworks */,
+				D4849EA62D0F69EB004AC54E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4849EA62D0F69EB004AC54E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4849EA52D0F69EB004AC54E /* map-project.app */,
+				D4849EE02D0F6AE6004AC54E /* DistanceWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4849EE12D0F6AE6004AC54E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4849EE22D0F6AE6004AC54E /* WidgetKit.framework */,
+				D4849EE42D0F6AE6004AC54E /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4849EA42D0F69EB004AC54E /* map-project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4849EB32D0F69ED004AC54E /* Build configuration list for PBXNativeTarget "map-project" */;
+			buildPhases = (
+				D4849EA12D0F69EB004AC54E /* Sources */,
+				D4849EA22D0F69EB004AC54E /* Frameworks */,
+				D4849EA32D0F69EB004AC54E /* Resources */,
+				D4849EF72D0F6AE9004AC54E /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4849EF12D0F6AE9004AC54E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D4849EA72D0F69EB004AC54E /* map-project */,
+			);
+			name = "map-project";
+			packageProductDependencies = (
+			);
+			productName = "map-project";
+			productReference = D4849EA52D0F69EB004AC54E /* map-project.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4849EDF2D0F6AE6004AC54E /* DistanceWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4849EF42D0F6AE9004AC54E /* Build configuration list for PBXNativeTarget "DistanceWidgetExtension" */;
+			buildPhases = (
+				D4849EDC2D0F6AE6004AC54E /* Sources */,
+				D4849EDD2D0F6AE6004AC54E /* Frameworks */,
+				D4849EDE2D0F6AE6004AC54E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D4849EE62D0F6AE6004AC54E /* DistanceWidget */,
+			);
+			name = DistanceWidgetExtension;
+			packageProductDependencies = (
+			);
+			productName = DistanceWidgetExtension;
+			productReference = D4849EE02D0F6AE6004AC54E /* DistanceWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4849E9D2D0F69EB004AC54E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					D4849EA42D0F69EB004AC54E = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					D4849EDF2D0F6AE6004AC54E = {
+						CreatedOnToolsVersion = 16.1;
+					};
+				};
+			};
+			buildConfigurationList = D4849EA02D0F69EB004AC54E /* Build configuration list for PBXProject "map-project" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4849E9C2D0F69EB004AC54E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D4849EA62D0F69EB004AC54E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4849EA42D0F69EB004AC54E /* map-project */,
+				D4849EDF2D0F6AE6004AC54E /* DistanceWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4849EA32D0F69EB004AC54E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4849EDE2D0F6AE6004AC54E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4849EA12D0F69EB004AC54E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4849EDC2D0F6AE6004AC54E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4849EF12D0F6AE9004AC54E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4849EDF2D0F6AE6004AC54E /* DistanceWidgetExtension */;
+			targetProxy = D4849EF02D0F6AE9004AC54E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D4849EB12D0F69ED004AC54E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D4849EB22D0F69ED004AC54E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4849EB42D0F69ED004AC54E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"map-project/Preview Content\"";
+				DEVELOPMENT_TEAM = 4ZNWJ43MHZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "map-project/Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Needed for mapping - Always & In use";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Needed for mapping - Always";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Needed for mapping - In use";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivitiesFrequentUpdates = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.map-project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4849EB52D0F69ED004AC54E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"map-project/Preview Content\"";
+				DEVELOPMENT_TEAM = 4ZNWJ43MHZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "map-project/Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Needed for mapping - Always & In use";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Needed for mapping - Always";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Needed for mapping - In use";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivitiesFrequentUpdates = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.map-project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D4849EF52D0F6AE9004AC54E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4ZNWJ43MHZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DistanceWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DistanceWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.map-project.DistanceWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4849EF62D0F6AE9004AC54E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4ZNWJ43MHZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DistanceWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DistanceWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.map-project.DistanceWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4849EA02D0F69EB004AC54E /* Build configuration list for PBXProject "map-project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4849EB12D0F69ED004AC54E /* Debug */,
+				D4849EB22D0F69ED004AC54E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4849EB32D0F69ED004AC54E /* Build configuration list for PBXNativeTarget "map-project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4849EB42D0F69ED004AC54E /* Debug */,
+				D4849EB52D0F69ED004AC54E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4849EF42D0F6AE9004AC54E /* Build configuration list for PBXNativeTarget "DistanceWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4849EF52D0F6AE9004AC54E /* Debug */,
+				D4849EF62D0F6AE9004AC54E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4849E9D2D0F69EB004AC54E /* Project object */;
+}
